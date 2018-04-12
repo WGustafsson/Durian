@@ -1,2 +1,2 @@
-SRA_identifier,source,tissue,sequencing_instrument,layout
-SRR6040095, , , , 
+SRA_identifier,source,speices,tissue,sequencing_instrument,layout
+SRR6040095,transcriptomic,durio_zibethinus,aril,illumina_hiseq_2500,paired 
