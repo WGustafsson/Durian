@@ -1,0 +1,9 @@
+	trimmomatic 0.36 loaded, see 'module help trimmomatic/0.36' for more information.
+	trimmomatic 0.36 loaded, see 'module help trimmomatic/0.36' for more information.
+TrimmomaticPE: Started with arguments:
+ /proj/g2018003/nobackup/private/Tean_Teh_2017/scaffold10/RNA_raw_data/SRR6040095_scaffold_10.1.fastq.gz /proj/g2018003/nobackup/private/Tean_Teh_2017/scaffold10/RNA_raw_data/SRR6040095_scaffold_10.2.fastq.gz -baseout /home/wigu2376/Durian/analyses/assembly/transcriptome_assembly/preprocessing/SRR6040095_scaffold_10.fastq.gz LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Multiple cores found: Using 2 threads
+Using templated Output files: /home/wigu2376/Durian/analyses/assembly/transcriptome_assembly/preprocessing/SRR6040095_scaffold_10_1P.fastq.gz /home/wigu2376/Durian/analyses/assembly/transcriptome_assembly/preprocessing/SRR6040095_scaffold_10_1U.fastq.gz /home/wigu2376/Durian/analyses/assembly/transcriptome_assembly/preprocessing/SRR6040095_scaffold_10_2P.fastq.gz /home/wigu2376/Durian/analyses/assembly/transcriptome_assembly/preprocessing/SRR6040095_scaffold_10_2U.fastq.gz
+Quality encoding detected as phred33
+Input Read Pairs: 13044149 Both Surviving: 13037315 (99.95%) Forward Only Surviving: 795 (0.01%) Reverse Only Surviving: 5907 (0.05%) Dropped: 132 (0.00%)
+TrimmomaticPE: Completed successfully
