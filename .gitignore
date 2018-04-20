@@ -1,5 +1,5 @@
 *.fastq
 *.gz
 *.fasta
-*/durian_pacbio*
-!*/durian_pacbio.report
+analyses/*/durian_pacbio*
+!analyses/*/durian_pacbio.report
