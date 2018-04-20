@@ -1,5 +1,4 @@
 *.fastq
 *.gz
 *.fasta
-analyses/*/durian_pacbio*
-!analyses/*/durian_pacbio.report
+analyses/assembly/genome_assembly/
