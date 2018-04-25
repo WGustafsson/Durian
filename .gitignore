@@ -1,4 +1,3 @@
 *.fastq
 *.gz
-*.fasta
 analyses/assembly/genome_assembly/
