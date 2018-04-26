@@ -1,0 +1,18 @@
+[bwa_index] Pack FASTA... 0.33 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=55850138, availableWord=15929532
+[BWTIncConstructFromPacked] 10 iterations done. 26275754 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 48540426 characters processed.
+[bwt_gen] Finished constructing BWT in 24 iterations.
+[bwa_index] 17.01 seconds elapse.
+[bwa_index] Update BWT... 0.20 sec
+[bwa_index] Pack forward-only FASTA... 0.16 sec
+[bwa_index] Construct SA from BWT and Occ... 6.47 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index -p durian /home/wigu2376/Durian/analyses/assembly/genome_assembly/durian_pacbio.contigs.fasta
+[main] Real time: 25.217 sec; CPU: 24.185 sec
+[E::bwa_idx_load_from_disk] fail to locate the index files
+/home/wigu2376/illumina_data/SRR6058604_scaffold_10.1P.fastq: line 1: @SRR6058604.21/1: No such file or directory
+/home/wigu2376/illumina_data/SRR6058604_scaffold_10.1P.fastq: line 2: ACCTTGTACATGTGGAAATGTTATATTTAACCATAACTTGATGGCCTATTGTTGCTTGGGCCGACGTGGGACTTATTTTTTTTATTTTAAATTTGATTTTTGACCTAATGTATGGTTAACCCGATGTGTCACAAGTGTTTTACTAATATG: command not found
+/home/wigu2376/illumina_data/SRR6058604_scaffold_10.1P.fastq: line 3: +: command not found
+/home/wigu2376/illumina_data/SRR6058604_scaffold_10.1P.fastq: xrealloc: cannot allocate 18446744071977302736 bytes (135168 bytes allocated)
