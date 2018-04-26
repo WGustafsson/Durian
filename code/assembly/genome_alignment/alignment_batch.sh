@@ -10,12 +10,13 @@
 
 # modules
 module load bioinfo-tools
-module load bwa
+module load bwa/0.7.17
 
-#execute
-bwa index -p durian /home/wigu2376/Durian/analyses/assembly/genome_assembly/durian_pacbio.contigs.fasta
+# execute
+bwa index /home/wigu2376/Durian/analyses/assembly/genome_assembly/durian_pacbio.contigs.fasta
 
-bwa mem -t 2 /home/wigu2376/Durian/analyses/assembly/genome_assembly/durian_pacbio.contigs.fasta \ 
-/home/wigu2376/illumina_data/SRR6058604_scaffold_10.1P.fastq /home/wigu2376/illumina_data/SRR6058604_scaffold_10.2P.fastq > \
-/home/wigu2376/Durian/analyses/assembly/genome_alignment/align.sam
+bwa mem -t 2 /home/wigu2376/Durian/analyses/assembly/genome_assembly/durian_pacbio.contigs.fasta \
+/home/wigu2376/illumina_data/SRR6058604_scaffold_10.1P.fastq \
+/home/wigu2376/illumina_data/SRR6058604_scaffold_10.2P.fastq \
+> /home/wigu2376/Durian/analyses/assembly/genome_alignment/align.sam
 
