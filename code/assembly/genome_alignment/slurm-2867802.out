@@ -1,2 +1,0 @@
-[E::hts_idx_push] Unsorted positions on sequence #190: 5388 followed by 5155
-samtools index: failed to create index for "/home/wigu2376/Durian/analyses/assembly/genome_alignment/align.bam": No such file or directory
