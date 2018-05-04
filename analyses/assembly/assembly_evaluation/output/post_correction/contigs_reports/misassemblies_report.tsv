@@ -1,0 +1,14 @@
+Assembly	corrected_assembly
+# misassemblies	153
+    # relocations	149
+    # translocations	0
+    # inversions	4
+# misassembled contigs	84
+Misassembled contigs length	17779969
+# local misassemblies	222
+# unaligned mis. contigs	16
+# mismatches	67410
+# indels	25569
+    # indels (<= 5 bp)	24067
+    # indels (> 5 bp)	1502
+Indels length	51834

@@ -1,0 +1,5 @@
+Writing filtered delta file /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/nucmer_output/corrected_assembly.filter
+Reading delta file /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/nucmer_output/corrected_assembly.delta
+Writing plot files /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/nucmer_output/corrected_assembly.fplot, /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/nucmer_output/corrected_assembly.rplot
+Writing gnuplot script /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/nucmer_output/corrected_assembly.gp
+Rendering plot /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/nucmer_output/corrected_assembly.html

@@ -1,0 +1,110 @@
+/sw/apps/bioinfo/quast/4.5.4/rackham/bin/quast.py /home/wigu2376/Durian/analyses/assembly/genome_correction/pilon_correction/corrected_assembly.fasta -R /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/input/reference.fasta -o /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction
+
+Version: 4.5.4
+
+System information:
+  OS: Linux-3.10.0-693.21.1.el7.x86_64-x86_64-with-centos-7.4.1708-Core (linux_64)
+  Python version: 2.7.6
+  CPUs number: 20
+
+Started: 2018-05-04 10:36:42
+
+Logging to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/quast.log
+NOTICE: Output directory already exists. Existing Nucmer alignments can be used
+NOTICE: Maximum number of threads is set to 5 (use --threads option to set it manually)
+
+CWD: /pica/h1/wigu2376/Durian/code/assembly/assembly_evaluation
+Main parameters: 
+  Threads: 5, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/input/reference.fasta ==> reference
+
+Contigs:
+  Pre-processing...
+  /home/wigu2376/Durian/analyses/assembly/genome_correction/pilon_correction/corrected_assembly.fasta ==> corrected_assembly
+
+2018-05-04 10:36:58
+Running Basic statistics processor...
+  Reference genome:
+    reference.fasta, length = 24162007, num fragments = 1, GC % = 33.51
+  Contig files: 
+    corrected_assembly
+  Calculating N50 and L50...
+    corrected_assembly, N50 = 351076, L50 = 16, Total length = 27925150, GC % = 31.64, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/basic_stats/GC_content_plot.pdf
+  Drawing corrected_assembly GC content plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/basic_stats/corrected_assembly_GC_content_plot.pdf
+Done.
+
+2018-05-04 10:37:04
+Running Contig analyzer...
+  corrected_assembly
+  Logging to files /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/contigs_report_corrected_assembly.stdout and contigs_report_corrected_assembly.stderr...
+  Aligning contigs to the reference
+  MUMmer plot saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/corrected_assembly_mummerplot.html
+  Analysis is finished.
+  Gzipping /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/nucmer_output/corrected_assembly.all_snps to reduce disk space usage...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/nucmer_output/corrected_assembly.all_snps.gz
+  Creating total report...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2018-05-04 12:03:57
+Running NA-NGA calculation...
+  corrected_assembly, Largest alignment = 2720194, NA50 = 199171, NGA50 = 234128, LA50 = 30, LGA50 = 22
+  Drawing cumulative plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/aligned_stats/NGAx_plot.pdf
+Done.
+
+2018-05-04 12:03:59
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  corrected_assembly
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2018-05-04 12:04:13
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2018-05-04 12:04:15
+RESULTS:
+  Text versions of total report are saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/report.html
+  PDF version (tables and plots) is saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/report.pdf
+  Icarus (contig browser) is saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/icarus.html
+  Log saved to /home/wigu2376/Durian/analyses/assembly/assembly_evaluation/output/post_correction/quast.log
+
+Finished: 2018-05-04 12:04:15
+Elapsed time: 1:27:32.970510
+NOTICEs: 5; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

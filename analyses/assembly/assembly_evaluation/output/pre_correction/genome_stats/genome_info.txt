@@ -1,0 +1,14 @@
+reference chromosomes:
+	NW_019167827.1_Durio_zibethinus_cultivar_Musang_King_isolate_D1_unplaced_genomic_scaffold__Duzib1.0_scaffold_10__whole_genome_shotgun_sequence (total length: 24162007 bp, maximal covered length: 20691924 bp)
+
+total genome size: 24162007
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+contigs                  | 85.63827% | 1.16729     | 179       | -         | -         | -         | -         |
