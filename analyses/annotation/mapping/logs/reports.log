@@ -1,0 +1,10 @@
+tophat_reports v2.1.1 (ecf7617)
+---------------------------------------
+[samopen] SAM header is present: 1 sequences.
+	Loading NW_019167827.1...done
+	Loading ...done
+Loaded 24605 junctions
+Printing junction BED track...done
+Printing insertions...done
+Printing deletions...done
+Found 16133 junctions from happy spliced reads

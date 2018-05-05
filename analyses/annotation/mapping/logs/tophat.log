@@ -1,0 +1,42 @@
+
+[2018-05-04 20:25:35] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2018-05-04 20:25:35] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2018-05-04 20:25:36] Checking for Bowtie index files (genome)..
+[2018-05-04 20:25:36] Checking for reference FASTA file
+[2018-05-04 20:25:36] Generating SAM header for /home/wigu2376/Durian/data/genome/reference
+[2018-05-04 20:25:38] Preparing reads
+	 left reads: min. length=50, max. length=126, 42694658 kept reads (614 discarded)
+	right reads: min. length=50, max. length=126, 42694759 kept reads (513 discarded)
+[2018-05-04 20:55:14] Mapping left_kept_reads to genome reference with Bowtie2 
+[2018-05-04 22:43:09] Mapping left_kept_reads_seg1 to genome reference with Bowtie2 (1/5)
+[2018-05-04 22:46:47] Mapping left_kept_reads_seg2 to genome reference with Bowtie2 (2/5)
+[2018-05-04 22:51:07] Mapping left_kept_reads_seg3 to genome reference with Bowtie2 (3/5)
+[2018-05-04 22:55:10] Mapping left_kept_reads_seg4 to genome reference with Bowtie2 (4/5)
+[2018-05-04 23:00:11] Mapping left_kept_reads_seg5 to genome reference with Bowtie2 (5/5)
+[2018-05-04 23:00:57] Mapping right_kept_reads to genome reference with Bowtie2 
+[2018-05-05 00:49:34] Mapping right_kept_reads_seg1 to genome reference with Bowtie2 (1/5)
+[2018-05-05 00:52:47] Mapping right_kept_reads_seg2 to genome reference with Bowtie2 (2/5)
+[2018-05-05 00:56:14] Mapping right_kept_reads_seg3 to genome reference with Bowtie2 (3/5)
+[2018-05-05 00:59:28] Mapping right_kept_reads_seg4 to genome reference with Bowtie2 (4/5)
+[2018-05-05 01:03:42] Mapping right_kept_reads_seg5 to genome reference with Bowtie2 (5/5)
+[2018-05-05 01:04:22] Searching for junctions via segment mapping
+[2018-05-05 01:37:08] Retrieving sequences for splices
+[2018-05-05 01:37:10] Indexing splices
+[2018-05-05 01:37:15] Mapping left_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/5)
+[2018-05-05 01:46:18] Mapping left_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/5)
+[2018-05-05 01:53:14] Mapping left_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/5)
+[2018-05-05 02:00:23] Mapping left_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/5)
+[2018-05-05 02:08:59] Mapping left_kept_reads_seg5 to genome segment_juncs with Bowtie2 (5/5)
+[2018-05-05 02:10:37] Joining segment hits
+[2018-05-05 02:26:11] Mapping right_kept_reads_seg1 to genome segment_juncs with Bowtie2 (1/5)
+[2018-05-05 02:36:18] Mapping right_kept_reads_seg2 to genome segment_juncs with Bowtie2 (2/5)
+[2018-05-05 02:43:29] Mapping right_kept_reads_seg3 to genome segment_juncs with Bowtie2 (3/5)
+[2018-05-05 02:49:50] Mapping right_kept_reads_seg4 to genome segment_juncs with Bowtie2 (4/5)
+[2018-05-05 02:59:20] Mapping right_kept_reads_seg5 to genome segment_juncs with Bowtie2 (5/5)
+[2018-05-05 03:00:50] Joining segment hits
+[2018-05-05 03:17:07] Reporting output tracks
+-----------------------------------------------
+[2018-05-05 05:11:39] A summary of the alignment counts can be found in /home/wigu2376/Durian/analyses/annotation/mapping/align_summary.txt
+[2018-05-05 05:11:39] Run complete: 08:46:03 elapsed

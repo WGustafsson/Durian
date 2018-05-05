@@ -1,0 +1,5 @@
+Statistics:
+===========
+Trinity Version:      Trinity-v2.4.0
+Compiler:             GCC
+Trinity Parameters:   --genome_guided_bam /home/wigu2376/Durian/analyses/annotation/mapping/sorted_map.bam --max_memory 24G --genome_guided_max_intron 10000 --CPU 4 --output /home/wigu2376/Durian/analyses/assembly/transcriptome_assembly/assembly/trinity_out_dir
