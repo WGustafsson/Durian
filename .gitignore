@@ -1,8 +1,8 @@
 *.fastq
 *.gz
 analyses/assembly/genome_assembly/
-*.sam*
-*.bam*
 *.sam
 *.bam
+*.sam*
+*.bam*
 data/*
