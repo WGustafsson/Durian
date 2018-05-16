@@ -3,4 +3,6 @@
 analyses/assembly/genome_assembly/
 *.sam*
 *.bam*
+*.sam
+*.bam
 data/*
