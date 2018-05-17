@@ -33,3 +33,9 @@ ordered
 
 write.csv(as.data.frame(ordered),
           file="/home/wiktgust/Durian/analyses/diff_exp/deseq2/diff_exp_aril_other_mk.csv")
+
+library("pheatmap")
+df <- as.data.frame(colData(dds)[,c("condition")])
+ntd <- normTransform(dds)
+pheatmap(assay(vsd)[select,], cluster_rows=FALSE, show_rownames=FALSE,
+         cluster_cols=FALSE, annotation_col=df)
