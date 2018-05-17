@@ -1,0 +1,184 @@
+Settings:
+  Output files: "/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156067/tmp/segment_juncs.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156067/tmp/segment_juncs.fa
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 152594
+Using parameters --bmax 114446 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 114446 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 610376 (target: 114445)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 1
+  No samples; assembling all-inclusive block
+  Sorting block of length 610376 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 610377 for bucket 1
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 181359
+fchr[G]: 309768
+fchr[T]: 433803
+fchr[$]: 610376
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 5258339 bytes to primary EBWT file: /home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156067/tmp/segment_juncs.1.bt2
+Wrote 152600 bytes to secondary EBWT file: /home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156067/tmp/segment_juncs.2.bt2
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 610376
+    bwtLen: 610377
+    sz: 152594
+    bwtSz: 152595
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 38149
+    offsSz: 152596
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 3180
+    numLines: 3180
+    ebwtTotLen: 203520
+    ebwtTotSz: 203520
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:00:00
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to reverse reference sequence: 00:00:00
+bmax according to bmaxDivN setting: 152594
+Using parameters --bmax 114446 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 114446 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 610376 (target: 114445)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 1
+  No samples; assembling all-inclusive block
+  Sorting block of length 610376 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 610377 for bucket 1
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 181359
+fchr[G]: 309768
+fchr[T]: 433803
+fchr[$]: 610376
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 5258339 bytes to primary EBWT file: /home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156067/tmp/segment_juncs.rev.1.bt2
+Wrote 152600 bytes to secondary EBWT file: /home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156067/tmp/segment_juncs.rev.2.bt2
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 610376
+    bwtLen: 610377
+    sz: 152594
+    bwtSz: 152595
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 38149
+    offsSz: 152596
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 3180
+    numLines: 3180
+    ebwtTotLen: 203520
+    ebwtTotSz: 203520
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:00:00

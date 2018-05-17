@@ -1,0 +1,37 @@
+SRR6040092
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6040092/SRR6040092_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]
+SRR6040093
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6040093/SRR6040093_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]
+SRR6040094
+[bam_sort_core] merging from 8 files and 4 in-memory blocks...
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6040094/SRR6040094_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]
+SRR6040095
+[E::hts_open_format] Failed to open file /home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6040095/accepted_hits.bam
+samtools sort: can't open "/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6040095/accepted_hits.bam": No such file or directory
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6040095/SRR6040095_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]
+SRR6040096
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6040096/SRR6040096_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]
+SRR6040097
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6040097/SRR6040097_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]
+SRR6156066
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156066/SRR6156066_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]
+SRR6156067
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156067/SRR6156067_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]
+SRR6156069
+[bam_sort_core] merging from 0 files and 4 in-memory blocks...
+  [Errno 2] No such file or directory: '/home/wigu2376/Durian/analyses/annotation/mapping/individual_samples/SRR6156069/SRR6156069_sorted_name.bam'
+  [Exception type: IOError, raised in count.py:58]

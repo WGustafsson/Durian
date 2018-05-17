@@ -1,0 +1,15 @@
+segment_juncs v2.1.1 (ecf7617)
+---------------------------
+[samopen] SAM header is present: 1 sequences.
+Loading reference sequences...
+	Loading NW_019167827.1... done (24162007 bases).
+>> Performing segment-search:
+Loading left segment hits... done.
+Loading right segment hits...done.
+	found 18545 potential split-segment junctions
+	found 988 potential small deletions
+	found 1490 potential small insertions
+Reported 18545 total potential splices
+Reporting 988 potential deletions...
+Reporting 1490 potential insertions...
+Reporting potential fusions...

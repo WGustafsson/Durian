@@ -1,0 +1,8 @@
+left_min_read_len=50
+left_max_read_len=126
+left_reads_in =1704123
+left_reads_out=1704086
+right_min_read_len=50
+right_max_read_len=126
+right_reads_in =1704123
+right_reads_out=1703854

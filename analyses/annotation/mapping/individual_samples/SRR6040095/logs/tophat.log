@@ -1,0 +1,9 @@
+
+[2018-05-09 17:46:02] Beginning TopHat run (v2.1.1)
+-----------------------------------------------
+[2018-05-09 17:46:02] Checking for Bowtie
+		  Bowtie version:	 2.3.2.0
+[2018-05-09 17:46:02] Checking for Bowtie index files (genome)..
+[2018-05-09 17:46:02] Checking for reference FASTA file
+[2018-05-09 17:46:02] Generating SAM header for /home/wigu2376/Durian/data/genome/reference
+Error: could not open pipe gzip -cd < /home/wigu2376/Durian/analyses/assembly/transcriptome_assembly/preprocessing/SRR6040095_scaffold_10.1P.fastq.gz
