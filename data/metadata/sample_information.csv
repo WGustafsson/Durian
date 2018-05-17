@@ -1,2 +1,10 @@
-SRA_identifier,source,speices,tissue,sequencing_instrument,layout
-SRR6040095,transcriptomic,durio_zibethinus,aril,illumina_hiseq_2500,paired 
+SRA_identifier,source,speices,cultivate,tissue,sequencing_instrument,layout
+SRR6040092,transcriptomic,durio_zibethinus,musang_king,leaf,illumina_hiseq_2500,paired
+SRR6040093,transcriptomic,durio_zibethinus,musang_king,root,illumina_hiseq_2500,paired
+SRR6040094,transcriptomic,durio_zibethinus,musang_king,aril_2,illumina_hiseq_2500,paired
+SRR6040095,transcriptomic,durio_zibethinus,musang_king,aril_1,illumina_hiseq_2500,paired
+SRR6040096,transcriptomic,durio_zibethinus,musang_king,stem,illumina_hiseq_2500,paired
+SRR6040097,transcriptomic,durio_zibethinus,musang_king,aril_3,illumina_hiseq_2500,paired
+SRR6156066,transcriptomic,durio_zibethinus,monthong,aril_2,illumina_hiseq_2500,paired
+SRR6156067,transcriptomic,durio_zibethinus,musang_king,aril_3,illumina_hiseq_2500,paired
+SRR6156069,transcriptomic,durio_zibethinus,musang_king,aril_1,illumina_hiseq_2500,paired
