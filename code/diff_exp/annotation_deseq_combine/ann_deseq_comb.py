@@ -35,4 +35,9 @@ for egg_row in egg_genes:
 
 saved = sorted(saved, key = lambda k: k['gene'])
 
-print(saved[0])
+headers = saved[0].keys()
+
+with open('ann_deseq_genes.csv', 'w') as outfile:
+    writer = csv.DictWriter(outfile, headers)
+    writer.writeheader()
+    writer.writerows(saved)
