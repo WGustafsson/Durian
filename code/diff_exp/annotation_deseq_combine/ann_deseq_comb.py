@@ -25,19 +25,23 @@ print(len(de_genes))
 print(len(egg_genes))
 
 saved = []
-for egg_row in egg_genes:
-    egg_copy = egg_row.copy()
-    for de_row in de_genes:
-        de_copy = de_row.copy()
-        if egg_copy['gene'] == de_copy['gene'].split(':')[0]:
-            egg_copy.update(de_copy)
-            saved.append(egg_copy)
+for de_row in de_genes:
+    de_copy = de_row.copy()
+    if (de_copy['padj'] != "NA"): # ignore rows with unknown p-value
+        if (float(de_copy['padj']) < 0.05): # exclude non-significant results
+            for egg_row in egg_genes:
+                egg_copy = egg_row.copy()
+                if egg_copy['gene'] == de_copy['gene'].split(':')[0]: # keep only results that exist in both files
+                    egg_copy.update(de_copy)
+                    saved.append(egg_copy)
+
+print(len(saved))
 
 saved = sorted(saved, key = lambda k: k['gene'])
 
 headers = saved[0].keys()
 
-with open('ann_deseq_genes.csv', 'w') as outfile:
+with open('ann_deseq_genes.csv', 'w', newline='') as outfile:
     writer = csv.DictWriter(outfile, headers)
     writer.writeheader()
     writer.writerows(saved)
