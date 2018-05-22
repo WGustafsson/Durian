@@ -1,0 +1,22 @@
+
+Starting file './durian_pacbio.gkpStore.gkp'.
+
+  Loading reads from '/home/wigu2376/Durian/data/trimmed_data/WGS_trimmed_data/SRR6037732_scaffold_10.fq.gz'
+    Processed 1213820 lines.
+    Loaded 1761712202 bp from:
+      242764 FASTQ format reads (1761712202 bp).
+    WARNING: 8912 reads (3.6711%) with 5625172 bp (0.3183%) were too short (< 1000bp) and were ignored.
+
+Finished with:
+  0 warnings (bad base or qv, too short, too long)
+
+Loaded into store:
+  1761712202 bp.
+  233852 reads.
+
+Skipped (too short):
+  5625172 bp (0.3183%).
+  8912 reads (3.6711%).
+
+
+gatekeeperCreate finished successfully.
