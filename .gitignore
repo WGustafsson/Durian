@@ -1,6 +1,5 @@
 *.fastq
 *.gz
-analyses/assembly/genome_assembly/
 *.sam*
 *.bam*
 data/*
